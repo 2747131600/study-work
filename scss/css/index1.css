@@ -1,0 +1,28 @@
+.container {
+  height: 300px;
+  width: 100%;
+  background: #789;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bd1 {
+  flex: 1;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  background: #000;
+  color: red;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.bd2 {
+  flex: 1;
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+  background: green;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+}

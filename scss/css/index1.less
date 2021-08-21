@@ -1,0 +1,27 @@
+@width: 100%;
+@bg: #789;
+
+.container{
+    height: 300px;
+    width: @width;
+    background: @bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.juzhong(@w,@h,@bg,@color,@fonts){
+    flex: 1;
+    width: @w;
+    height: @h;
+    margin: 30px;
+    background: @bg;
+    color: @color;
+    font-size: @fonts;
+    border-radius: 8px
+}
+.bd1{
+    .juzhong(200px, 200px, #000, red, 18px);
+}
+.bd2{
+    .juzhong(250px, 250px, green, white, 20px);
+}

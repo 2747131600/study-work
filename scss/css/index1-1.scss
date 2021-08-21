@@ -1,0 +1,37 @@
+$width: 100%;
+$bg: #789;
+
+.container{
+    height: 700px;
+    width: $width;
+    background: $bg;
+    
+}
+@mixin juzhong($w,$h,$bg,$color,$fonts){
+    width: $w;
+    height: $h;
+    margin: 30px;
+    background: $bg;
+    color: $color;
+    font-size: $fonts;
+    border-radius: 5px
+}
+.bd1{
+    @include juzhong(200px, 200px, #000, red, 18px);
+}
+.bd2{
+    @include juzhong(250px, 250px, green, white, 20px);
+}
+.bd1,.bd2{
+    a{
+        text-decoration: none;
+        &:hover{
+            background: aqua;
+            color: red;
+            border: 5px solid blue;
+        }
+    }
+}
+header p:nth-child(2){
+    color: white;
+}

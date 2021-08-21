@@ -1,0 +1,40 @@
+.container {
+  height: 700px;
+  width: 100%;
+  background: #789;
+}
+
+.bd1 {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  background: #000;
+  color: red;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.bd2 {
+  width: 250px;
+  height: 250px;
+  margin: 30px;
+  background: green;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.bd1 a, .bd2 a {
+  text-decoration: none;
+}
+
+.bd1 a:hover, .bd2 a:hover {
+  background: aqua;
+  color: red;
+  border: 5px solid blue;
+}
+
+header p:nth-child(2) {
+  color: white;
+}
+/*# sourceMappingURL=index1-1.css.map */
